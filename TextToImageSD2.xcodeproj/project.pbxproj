@@ -12,6 +12,7 @@
 		94C31F9C294848C900068A1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C31F9B294848C900068A1F /* Assets.xcassets */; };
 		94C31F9F294848C900068A1F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94C31F9E294848C900068A1F /* Preview Assets.xcassets */; };
 		94C31FA7294849A100068A1F /* StableDiffusion in Frameworks */ = {isa = PBXBuildFile; productRef = 94C31FA6294849A100068A1F /* StableDiffusion */; };
+		94C31FA929484B5100068A1F /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94C31FA829484B5100068A1F /* ImageGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		94C31F99294848C800068A1F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		94C31F9B294848C900068A1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94C31F9E294848C900068A1F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		94C31FA829484B5100068A1F /* ImageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				94C31F97294848C800068A1F /* TextToImageSD2App.swift */,
 				94C31F99294848C800068A1F /* ContentView.swift */,
+				94C31FA829484B5100068A1F /* ImageGenerator.swift */,
 				94C31F9B294848C900068A1F /* Assets.xcassets */,
 				94C31F9D294848C900068A1F /* Preview Content */,
 			);
@@ -146,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				94C31F9A294848C800068A1F /* ContentView.swift in Sources */,
+				94C31FA929484B5100068A1F /* ImageGenerator.swift in Sources */,
 				94C31F98294848C800068A1F /* TextToImageSD2App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
