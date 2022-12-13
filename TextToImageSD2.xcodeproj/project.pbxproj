@@ -55,6 +55,7 @@
 		94C31F96294848C800068A1F /* TextToImageSD2 */ = {
 			isa = PBXGroup;
 			children = (
+				94C31FAB29484DD400068A1F /* CoreMLModels */,
 				94C31F97294848C800068A1F /* TextToImageSD2App.swift */,
 				94C31F99294848C800068A1F /* ContentView.swift */,
 				94C31FA829484B5100068A1F /* ImageGenerator.swift */,
@@ -70,6 +71,13 @@
 				94C31F9E294848C900068A1F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		94C31FAB29484DD400068A1F /* CoreMLModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CoreMLModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
